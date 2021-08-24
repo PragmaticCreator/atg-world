@@ -1,11 +1,14 @@
-import './App.scss';
-import Blog from 'views/Blog';
+import Blog from 'views/blog';
+import Header from 'components/header';
 
 function App() {
   return (
-    <div className='App'>
-      <Blog />
-    </div>
+    <main className="d-flex justify-content-center">
+      <div className='container-xxl p-0 m-0'>
+        <Header />
+        <Blog />
+      </div>
+    </main>
   );
 }
 

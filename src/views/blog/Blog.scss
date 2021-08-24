@@ -1,0 +1,55 @@
+@import '/src/styles/variables';
+
+.blog {
+  &__container {
+    background-color: $secondary;
+  }
+
+  &__location {
+    &__search {
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 6px;
+        left: 0px;
+        font-size: 0.875rem;
+        color: #7a7a7a;
+      }
+      input {
+        border: none;
+        border-bottom: 0.4px solid #b8b8b8;
+        font-size: 0.875rem;
+        font-weight: $font-weight-medium;
+        padding-left: 20px;
+        border-radius: 0;
+        color: #5c5c5c;
+        height: 35px;
+        width: 100%;
+
+        &:focus {
+          border-bottom: 0.4px solid #b8b8b8;
+        }
+      }
+    }
+
+    &__note {
+      i {
+        font-size: 0.875rem;
+      }
+
+      p {
+        font-size: 0.75rem;
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .blog {
+    &__container {
+      background-color: $primary;
+    }
+  }
+}

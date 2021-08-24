@@ -1,0 +1,41 @@
+{
+  "blogs": [
+    {
+      "image": "https://images.unsplash.com/photo-1540745420973-d8acd1595b97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+      "title": "What if famous brands had regular fonts? Meet RegulaBrands!",
+      "body": "I’ve worked in UX for the better part of a decade. F..",
+      "category": "Article",
+      "author": "Sarthak Kamra",
+      "profileImg": "https://images.unsplash.com/photo-1592023031338-ee30ef94abbc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "views": "1.4k views"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1533239209408-083811c01048?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI2fHxvbGQlMjB3YWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+      "title": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+      "body": "I’ve worked in UX for the better part of a decade. F..",
+      "category": "Education",
+      "author": "Sarah West",
+      "profileImg": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80",
+      "views": "1.4k views"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1520211271800-95642203ba90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+      "title": "Finance & Investment Elite Social Mixer @Lujiazui",
+      "category": "Meetup",
+      "date": "Fri, 12 Oct, 2018",
+      "location": "Ahmedabad, India",
+      "author": "Ronal Jones",
+      "profileImg": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "views": "800 views"
+    },
+    {
+      "title": "Software Developer - II",
+      "category": "Job",
+      "company": "Innovaccer Analytic...",
+      "location": "Noida, India",
+      "author": "Joseph Gray",
+      "profileImg": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=935&q=80",
+      "views": "1.7k views"
+    }
+  ]
+}

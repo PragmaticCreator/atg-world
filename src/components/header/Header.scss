@@ -1,0 +1,61 @@
+@import '/src/styles/variables';
+
+.header {
+  &__nav {
+    &__links {
+      #circle,
+      #rectangle {
+        min-width: 10px;
+        min-height: 10px;
+        background-color: $grey;
+      }
+
+      #circle {
+        border-radius: 50%;
+      }
+
+      #triangle {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 10px solid $grey;
+      }
+    }
+
+    &__logo {
+      height: 24px;
+      width: 100%;
+    }
+
+    &__search {
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 4px;
+        left: 15px;
+        font-size: 1rem;
+        color: #7a7a7a;
+      }
+      input {
+        border: none;
+        font-weight: $font-weight-medium;
+        padding-left: 50px;
+        border-radius: 25px;
+        color: #5c5c5c;
+        width: 360px;
+      }
+    }
+
+    &__menu {
+      button {
+        border: none;
+        font-weight: $font-weight-medium;
+        span {
+          margin: 0 3px 0 5px;
+        }
+      }
+    }
+  }
+}

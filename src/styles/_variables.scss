@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 
-// Custom variables for bootstrap
+// Custom variables.
+// Colors
+$primary: #fff;
+$secondary: #f1f3f5;
+$success: #3e8d63;
+$info: #343a40;
+$warning: #945707;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark: #212529;
+$dark-light: #495057;
+$grey: #868e96;
+$border-light: #A9AEB8;
+$border-lighter: #e0e0e0;
+$green: #02B875;
+$orange: #E56135;
+$blue: #2F6CE5;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+  dark-light: $dark-light,
+  border-light: $border-light,
+  grey: $grey,
+  green: $green, 
+  orange: $orange,
+  blue: $blue
+);
+
+// Fonts and Typography
+$font-family-sans-serif: 'IBM Plex Sans', sans-serif;
+$font-size-base: 0.875rem;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+$line-height-base: 1.6;
+
+$headings-font-weight: $font-weight-bold;
+$h1-font-size: $font-size-base * 1.802;
+$h2-font-size: $font-size-base * 1.602;
+$h3-font-size: $font-size-base * 1.424;
+$h4-font-size: $font-size-base * 1.266;
+$h5-font-size: $font-size-base * 1.125;
+
 
 // Import bootstrap
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'; 

@@ -1,0 +1,78 @@
+@import '/src/styles/variables';
+
+.activity {
+  .card {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  &__card {
+    margin-bottom: 0.5rem;
+    img {
+      max-height: 120px;
+      object-fit: cover;
+    }
+
+    &__profile {
+      object-fit: cover;
+      height: 37px;
+      width: 37px;
+      border-radius: 50%;
+    }
+
+    &__title {
+      i {
+        font-size: 1.75rem;
+      }
+    }
+
+    &__cta {
+      width: 100%;
+      font-size: 0.8125rem;
+      margin: 15px 0 30px 0;
+    }
+
+    &__pins {
+      i {
+        font-size: 1rem;
+        margin-right: 5px;
+      }
+      span {
+        font-weight: $font-weight-medium;
+        font-size: 0.75rem;
+      }
+    }
+
+    &__category {
+      i {
+        margin-right: 5px;
+      }
+      span {
+        font-weight: $font-weight-medium;
+        font-size: 0.875rem;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .activity {
+    .card {
+      border: 1px solid $border-lighter;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    &__card {
+      img {
+        max-height: 220px;
+      }
+
+      &__profile {
+        height: 48px;
+        width: 48px;
+      }
+    }
+  }
+}

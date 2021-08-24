@@ -1,0 +1,59 @@
+@import '/src/styles/variables';
+
+.filter {
+  &__nav {
+    &__desktop {
+      position: relative;
+      ::before {
+        position: absolute;
+        content: '';
+        background-color: #e0e0e0;
+        height: 1px;
+        width: 100%;
+        bottom: -8px;
+        left: 0;
+      }
+    }
+
+    &--active {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: '';
+        z-index: 100;
+        bottom: -24px;
+        left: 0;
+        height: 1px;
+        background-color: #333 !important;
+        width: 100%;
+      }
+    }
+
+    &__links {
+      li {
+        &:first-child {
+          padding-left: 0;
+        }
+        padding: 14px 8px;
+      }
+      span {
+        font-size: 0.9375rem;
+        color: #8a8a8a;
+        transition: color 350ms ease-in-out;
+      }
+    }
+
+    &__btns {
+      button > i {
+        margin-right: 5px;
+      }
+
+      span {
+        font-weight: $font-weight-medium;
+        font-size: 0.875rem;
+        margin: 0 5px 0 5px;
+      }
+    }
+  }
+}
