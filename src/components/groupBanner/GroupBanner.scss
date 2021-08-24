@@ -5,7 +5,7 @@
     position: relative;
 
     img {
-     height: 236px;
+      height: 236px;
       width: 100%;
       object-fit: cover;
     }
@@ -62,13 +62,11 @@
   }
 }
 
-
-
 @include media-breakpoint-up(md) {
   .banner {
     &__group {
       img {
-         height: 440px;
+        height: 440px;
       }
 
       &__data {
@@ -81,5 +79,3 @@
     }
   }
 }
-
-
