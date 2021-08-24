@@ -3,7 +3,7 @@ import GroupBanner from 'components/groupBanner';
 import StoryCard from 'components/storyCard';
 import ActivityCard from 'components/activityCard';
 import PostFilter from 'components/postFilter';
-import data from 'data/db.json';
+import data from 'data';
 
 const Blog = () => {
   return (
@@ -19,16 +19,16 @@ const Blog = () => {
           <div className='blog__data col-12 col-md-8 '>
             {/* Blog Articles */}
             <StoryCard
-              blogs={data.blogs.filter((blog) => blog.category === 'Article')}
+              blogs={data.filter((blog) => blog.category === 'Article')}
             />
             <StoryCard
-              blogs={data.blogs.filter((blog) => blog.category === 'Education')}
+              blogs={data.filter((blog) => blog.category === 'Education')}
             />
             <ActivityCard
-              blogs={data.blogs.filter((blog) => blog.category === 'Meetup')}
+              blogs={data.filter((blog) => blog.category === 'Meetup')}
             />
             <ActivityCard
-              blogs={data.blogs.filter((blog) => blog.category === 'Job')}
+              blogs={data.filter((blog) => blog.category === 'Job')}
             />
           </div>
 

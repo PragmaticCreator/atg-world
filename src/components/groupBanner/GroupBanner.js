@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './GroupBanner.scss';
+import Banner from 'images/laptop.jpg'
 
 const GroupBanner = () => {
   const [groupPromt, setGroupPromt] = useState('Join Group');
@@ -16,7 +17,7 @@ const GroupBanner = () => {
         <div className='banner__group--overlay'></div>
         <img
           className='img-fluid'
-          src='https://images.unsplash.com/photo-1455894127589-22f75500213a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3079&q=80'
+          src={Banner}
           alt='Computer Engineering'
         />
 

@@ -5,7 +5,7 @@
     position: relative;
 
     img {
-      max-height: 236px;
+     height: 236px;
       width: 100%;
       object-fit: cover;
     }
@@ -62,33 +62,13 @@
   }
 }
 
-@include media-breakpoint-up(sm) {
-  .banner {
-    &__group {
-      img {
-        max-height: 330px;
-      }
 
-      &__data {
-        bottom: 20px;
-        left: 25px;
-        h4 {
-          font-size: 1.6rem;
-        }
-
-        p {
-          font-size: 1rem;
-        }
-      }
-    }
-  }
-}
 
 @include media-breakpoint-up(md) {
   .banner {
     &__group {
       img {
-        max-height: 440px;
+         height: 440px;
       }
 
       &__data {
@@ -102,13 +82,4 @@
   }
 }
 
-@include media-breakpoint-up(lg) {
-  .banner {
-    &__group {
-      &__data {
-        bottom: 50px;
-        left: 120px;
-      }
-    }
-  }
-}
+
