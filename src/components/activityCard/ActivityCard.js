@@ -94,3 +94,4 @@ ActivityCard.prototypes = {
 };
 
 export default ActivityCard;
+ 
